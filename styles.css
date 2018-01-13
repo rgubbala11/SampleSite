@@ -1,3 +1,59 @@
 .pageContainer{
     min-height: 1100px;
 }
+
+.menuBarStyle{
+	font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+	background-color: rgba(47,23,15,.9);
+}
+
+.menuItemStyle{
+	font-size: .9rem;
+	font-family: Raleway;
+	color: rgba(255,255,255,.7);
+	padding-left: 8px;
+	padding-right: 8px;	
+	font-weight: 800
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+	border: 2px solid white;
+}
+
+.bookLinkStyle{
+	color: blue;
+	text-decoration: none;
+	background-color: transparent;
+	cursor: pointer;
+	text-decoration: underline;
+	
+}
+
+.cta {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgba(230, 167, 86, 0.9);
+}
+
+.page-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.cta .cta-inner {
+  position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.85);
+}
