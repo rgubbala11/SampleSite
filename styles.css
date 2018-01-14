@@ -43,7 +43,9 @@
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-image: url('/images/cta-body5.jpg');
+  background-repeat: no-repeat; 
+  background-position: center
 }
 
 .page-section {
