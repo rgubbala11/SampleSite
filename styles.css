@@ -78,11 +78,11 @@ a:not([href]):not([tabindex]){
 }
 
 .box {
-    width: 20%;
+    width: 30%;
     padding-bottom: 20%;
     position: relative;
     float: left;
-    border: 1px solid white;
+    border: 5px solid white;
 }
 
 .tile {
