@@ -108,8 +108,20 @@ a:not([href]):not([tabindex]){
     -webkit-transform: translate(0%,0%);
     -ms-transform: translate(0%,0%);
     transform: translate(0%,0%);
+    font-weight: bold;
 }
 
 .tilesContainer{
     overflow:hidden;
+}
+
+.tileInnerText {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20%;
+}
+
+.quote{
+    color: cornflowerblue;
+    cursor: pointer;
 }
