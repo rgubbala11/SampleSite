@@ -2,13 +2,13 @@
     min-height: 1100px;
 }
 
-.menuBarStyle{
-	font-size: 1rem;
+.menuBarStyle {
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
     text-align: left;
-	background-color: rgba(47,23,15,.9);
+    background-color: rgba(20, 21, 20, 0.9);
 }
 
 .menuItemStyle{
@@ -41,11 +41,12 @@
 }
 
 .cta {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-image: url('/images/cta-body5.jpg');
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-image: url('/images/header-image16.jpg'); 
   background-repeat: no-repeat; 
-  background-position: center
+  background-position: center; 
+  background-size:unset
 }
 
 .page-section {

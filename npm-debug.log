@@ -9,8 +9,8 @@
 6 silly lifecycle startbootstrap-bare@4.0.0-beta.3~prestart: no script for prestart, continuing
 7 info lifecycle startbootstrap-bare@4.0.0-beta.3~start: startbootstrap-bare@4.0.0-beta.3
 8 verbose lifecycle startbootstrap-bare@4.0.0-beta.3~start: unsafe-perm in lifecycle true
-9 verbose lifecycle startbootstrap-bare@4.0.0-beta.3~start: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;E:\WebsiteWork\Template4\startbootstrap-bare-gh-pages\SampleSite\node_modules\.bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\dotnet\;C:\Users\ravit\AppData\Local\Microsoft\WindowsApps;C:\Users\ravit\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;
-10 verbose lifecycle startbootstrap-bare@4.0.0-beta.3~start: CWD: E:\WebsiteWork\Template4\startbootstrap-bare-gh-pages\SampleSite
+9 verbose lifecycle startbootstrap-bare@4.0.0-beta.3~start: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;E:\WebsiteWork\Template4\SampleSite\node_modules\.bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\dotnet\;C:\Users\ravit\AppData\Local\Microsoft\WindowsApps;C:\Users\ravit\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\ravit\AppData\Local\GitHubDesktop\bin
+10 verbose lifecycle startbootstrap-bare@4.0.0-beta.3~start: CWD: E:\WebsiteWork\Template4\SampleSite
 11 silly lifecycle startbootstrap-bare@4.0.0-beta.3~start: Args: [ '/d /s /c', 'ng serve -o' ]
 12 silly lifecycle startbootstrap-bare@4.0.0-beta.3~start: Returned: code: 1  signal: null
 13 info lifecycle startbootstrap-bare@4.0.0-beta.3~start: Failed to exec start script
@@ -25,7 +25,7 @@
 14 verbose stack     at maybeClose (internal/child_process.js:877:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid startbootstrap-bare@4.0.0-beta.3
-16 verbose cwd E:\WebsiteWork\Template4\startbootstrap-bare-gh-pages\SampleSite
+16 verbose cwd E:\WebsiteWork\Template4\SampleSite
 17 error Windows_NT 10.0.16299
 18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
 19 error node v6.9.4

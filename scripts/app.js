@@ -8,15 +8,20 @@ function loadPage(page){
     //$(".bodyContent").load('file://Books.html');
     if(page == 'books'){
         //document.getElementById("body_content").innerHTML='<object class="pageContainer" type="text/html" height="100%" width="100%" data="./pages/Books.html" ></object>';
-        $('#body_content').load(window.document.location.origin + '/pages/Books.html');
-        setTimeout(loadTiles(), 2000);
+        $('#body_content').load(window.document.location.origin + '/pages/Books.html', function(){
+            loadTiles();
+        });
     }
     else if(page == 'home'){
         //document.getElementById("body_content").innerHTML='<object class="pageContainer" type="text/html" height="100%" width="100%" data="./pages/Home.html" ></object>';
-        $('#body_content').load(window.document.location.origin + '/pages/Home.html');
+        $('#body_content').load(window.document.location.origin + '/pages/Home.html', function(){
+            
+        });
     }
 	else if(page == 'gallery'){
-		$('#body_content').load(window.document.location.origin + '/pages/Gallery.html');
+		$('#body_content').load(window.document.location.origin + '/pages/Gallery.html', function(){
+            
+        });
 	}
     
 }
@@ -53,18 +58,29 @@ function readData(index){
 }
 
 function loadTiles() {
-    $.getJSON('/data/quotes.json', function (data) {
-        for (var i = 1; i <= data.length; i++) {
-            // render tiles
-            var result = data[i-1];
-            $("#tileTitle" + i)[0].innerText = result.Title;
-            $("#tileContent" + i)[0].innerText = result.Description;
-            $("#tileContent" + i).attr('data-bookid', result.Id);
-        }
+    var currentPage = $("#hdfCurrentPage").val();
 
-        for (var i = (data.length + 1); i <= 15; i++) {
-            $(".box" + i).hide();
+    $.getJSON('/data/quotes.json', function (data) {
+        if (data.length < 15) {
+            for (var i = 1; i <= 15; i++) {
+                // render tiles
+                var result = data[(i * currentPage) - 1];
+                $("#tileTitle" + i)[0].innerText = result.Title;
+                $("#tileContent" + i)[0].innerText = result.Description;
+                $("#tileContent" + i).attr('data-bookid', result.Id);
+            }
+
+            for (var i = (data.length + 1); i <= 15; i++) {
+                $(".box" + i).hide();
+            }
+
+            $("#btnPrevious").attr("disabled", "disabled");
+            $("#btnNext").attr("disabled", "disabled");
         }
+        else {
+
+        }
+        
     });
 
     
